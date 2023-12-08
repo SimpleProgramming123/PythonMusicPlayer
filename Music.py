@@ -6,7 +6,7 @@ mixer.init()
 
 # Set the path to your music directory
 
-music_directory = "#"    #link your  music_directory
+music_directory = "#"    #link your  music_directory or songs folder.
 
 # Get a list of all music files in the directory
 music_files = [file for file in os.listdir(music_directory) if file.endswith(".mp3")]
